@@ -1,0 +1,24 @@
+Agenda of the day
+
+1.Setting up environment
+2.Servlets from the day2
+3.Sessions
+    Four ways of managing sessions are cookies,URL rewriting, HttpSession, Hidden fields    
+
+4.Events and Listeners
+    There are 2 types of servlet events.They are servlet-context levels and session levels
+    
+5.JSP(Java Server Pages)
+    Nothing but HTML and some java code which presents dynamic content and handles the presentation logic in a MVC architecture.
+    The primary difference between servlets and jsp are its purpose of use
+        Servlets - for business logic processing(HTML in java)
+        JSP - presentation logic  processing(Java in HTML)
+        
+    JSP also has 3 lifecycle methods as the servlets. jspinit() , _jspService() , jspDestroy()
+    The JSP methods which starts with an "_" underscore cannot be overridden.
+    Whatever is written in ths jsp file is eventually be translated in to a servlet.
+    
+6.Java Beans
+  A class of any name that is serializable.Conatins a default, no argument constructor.All the properties start with get/set.
+  
+7.Introduction and Installation of JBoss wildfly which is a web server, a servlet container and also a EJB container 
